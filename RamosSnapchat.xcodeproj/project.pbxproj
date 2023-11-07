@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		639E640B2AFAF4E600D460A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E640A2AFAF4E600D460A8 /* AppDelegate.swift */; };
+		639E640D2AFAF4E600D460A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E640C2AFAF4E600D460A8 /* SceneDelegate.swift */; };
+		639E640F2AFAF4E600D460A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E640E2AFAF4E600D460A8 /* ViewController.swift */; };
+		639E64122AFAF4E600D460A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639E64102AFAF4E600D460A8 /* Main.storyboard */; };
+		639E64142AFAF4E700D460A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639E64132AFAF4E700D460A8 /* Assets.xcassets */; };
+		639E64172AFAF4E700D460A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639E64152AFAF4E700D460A8 /* LaunchScreen.storyboard */; };
+		639E64222AFAF4E700D460A8 /* RamosSnapchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E64212AFAF4E700D460A8 /* RamosSnapchatTests.swift */; };
+		639E642C2AFAF4E700D460A8 /* RamosSnapchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E642B2AFAF4E700D460A8 /* RamosSnapchatUITests.swift */; };
+		639E642E2AFAF4E700D460A8 /* RamosSnapchatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E642D2AFAF4E700D460A8 /* RamosSnapchatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		639E641E2AFAF4E700D460A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639E63FF2AFAF4E600D460A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639E64062AFAF4E600D460A8;
+			remoteInfo = RamosSnapchat;
+		};
+		639E64282AFAF4E700D460A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639E63FF2AFAF4E600D460A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639E64062AFAF4E600D460A8;
+			remoteInfo = RamosSnapchat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		639E64072AFAF4E600D460A8 /* RamosSnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamosSnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		639E640A2AFAF4E600D460A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		639E640C2AFAF4E600D460A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		639E640E2AFAF4E600D460A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		639E64112AFAF4E600D460A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		639E64132AFAF4E700D460A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		639E64162AFAF4E700D460A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		639E64182AFAF4E700D460A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639E641D2AFAF4E700D460A8 /* RamosSnapchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamosSnapchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		639E64212AFAF4E700D460A8 /* RamosSnapchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamosSnapchatTests.swift; sourceTree = "<group>"; };
+		639E64272AFAF4E700D460A8 /* RamosSnapchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamosSnapchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		639E642B2AFAF4E700D460A8 /* RamosSnapchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamosSnapchatUITests.swift; sourceTree = "<group>"; };
+		639E642D2AFAF4E700D460A8 /* RamosSnapchatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamosSnapchatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639E64042AFAF4E600D460A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639E641A2AFAF4E700D460A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639E64242AFAF4E700D460A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		639E63FE2AFAF4E600D460A8 = {
+			isa = PBXGroup;
+			children = (
+				639E64092AFAF4E600D460A8 /* RamosSnapchat */,
+				639E64202AFAF4E700D460A8 /* RamosSnapchatTests */,
+				639E642A2AFAF4E700D460A8 /* RamosSnapchatUITests */,
+				639E64082AFAF4E600D460A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		639E64082AFAF4E600D460A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639E64072AFAF4E600D460A8 /* RamosSnapchat.app */,
+				639E641D2AFAF4E700D460A8 /* RamosSnapchatTests.xctest */,
+				639E64272AFAF4E700D460A8 /* RamosSnapchatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639E64092AFAF4E600D460A8 /* RamosSnapchat */ = {
+			isa = PBXGroup;
+			children = (
+				639E640A2AFAF4E600D460A8 /* AppDelegate.swift */,
+				639E640C2AFAF4E600D460A8 /* SceneDelegate.swift */,
+				639E640E2AFAF4E600D460A8 /* ViewController.swift */,
+				639E64102AFAF4E600D460A8 /* Main.storyboard */,
+				639E64132AFAF4E700D460A8 /* Assets.xcassets */,
+				639E64152AFAF4E700D460A8 /* LaunchScreen.storyboard */,
+				639E64182AFAF4E700D460A8 /* Info.plist */,
+			);
+			path = RamosSnapchat;
+			sourceTree = "<group>";
+		};
+		639E64202AFAF4E700D460A8 /* RamosSnapchatTests */ = {
+			isa = PBXGroup;
+			children = (
+				639E64212AFAF4E700D460A8 /* RamosSnapchatTests.swift */,
+			);
+			path = RamosSnapchatTests;
+			sourceTree = "<group>";
+		};
+		639E642A2AFAF4E700D460A8 /* RamosSnapchatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				639E642B2AFAF4E700D460A8 /* RamosSnapchatUITests.swift */,
+				639E642D2AFAF4E700D460A8 /* RamosSnapchatUITestsLaunchTests.swift */,
+			);
+			path = RamosSnapchatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639E64062AFAF4E600D460A8 /* RamosSnapchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639E64312AFAF4E700D460A8 /* Build configuration list for PBXNativeTarget "RamosSnapchat" */;
+			buildPhases = (
+				639E64032AFAF4E600D460A8 /* Sources */,
+				639E64042AFAF4E600D460A8 /* Frameworks */,
+				639E64052AFAF4E600D460A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RamosSnapchat;
+			productName = RamosSnapchat;
+			productReference = 639E64072AFAF4E600D460A8 /* RamosSnapchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		639E641C2AFAF4E700D460A8 /* RamosSnapchatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639E64342AFAF4E700D460A8 /* Build configuration list for PBXNativeTarget "RamosSnapchatTests" */;
+			buildPhases = (
+				639E64192AFAF4E700D460A8 /* Sources */,
+				639E641A2AFAF4E700D460A8 /* Frameworks */,
+				639E641B2AFAF4E700D460A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639E641F2AFAF4E700D460A8 /* PBXTargetDependency */,
+			);
+			name = RamosSnapchatTests;
+			productName = RamosSnapchatTests;
+			productReference = 639E641D2AFAF4E700D460A8 /* RamosSnapchatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		639E64262AFAF4E700D460A8 /* RamosSnapchatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639E64372AFAF4E700D460A8 /* Build configuration list for PBXNativeTarget "RamosSnapchatUITests" */;
+			buildPhases = (
+				639E64232AFAF4E700D460A8 /* Sources */,
+				639E64242AFAF4E700D460A8 /* Frameworks */,
+				639E64252AFAF4E700D460A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639E64292AFAF4E700D460A8 /* PBXTargetDependency */,
+			);
+			name = RamosSnapchatUITests;
+			productName = RamosSnapchatUITests;
+			productReference = 639E64272AFAF4E700D460A8 /* RamosSnapchatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		639E63FF2AFAF4E600D460A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					639E64062AFAF4E600D460A8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					639E641C2AFAF4E700D460A8 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 639E64062AFAF4E600D460A8;
+					};
+					639E64262AFAF4E700D460A8 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 639E64062AFAF4E600D460A8;
+					};
+				};
+			};
+			buildConfigurationList = 639E64022AFAF4E600D460A8 /* Build configuration list for PBXProject "RamosSnapchat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 639E63FE2AFAF4E600D460A8;
+			productRefGroup = 639E64082AFAF4E600D460A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639E64062AFAF4E600D460A8 /* RamosSnapchat */,
+				639E641C2AFAF4E700D460A8 /* RamosSnapchatTests */,
+				639E64262AFAF4E700D460A8 /* RamosSnapchatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639E64052AFAF4E600D460A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639E64172AFAF4E700D460A8 /* LaunchScreen.storyboard in Resources */,
+				639E64142AFAF4E700D460A8 /* Assets.xcassets in Resources */,
+				639E64122AFAF4E600D460A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639E641B2AFAF4E700D460A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639E64252AFAF4E700D460A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639E64032AFAF4E600D460A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639E640F2AFAF4E600D460A8 /* ViewController.swift in Sources */,
+				639E640B2AFAF4E600D460A8 /* AppDelegate.swift in Sources */,
+				639E640D2AFAF4E600D460A8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639E64192AFAF4E700D460A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639E64222AFAF4E700D460A8 /* RamosSnapchatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639E64232AFAF4E700D460A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639E642C2AFAF4E700D460A8 /* RamosSnapchatUITests.swift in Sources */,
+				639E642E2AFAF4E700D460A8 /* RamosSnapchatUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		639E641F2AFAF4E700D460A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639E64062AFAF4E600D460A8 /* RamosSnapchat */;
+			targetProxy = 639E641E2AFAF4E700D460A8 /* PBXContainerItemProxy */;
+		};
+		639E64292AFAF4E700D460A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639E64062AFAF4E600D460A8 /* RamosSnapchat */;
+			targetProxy = 639E64282AFAF4E700D460A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		639E64102AFAF4E600D460A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639E64112AFAF4E600D460A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		639E64152AFAF4E700D460A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639E64162AFAF4E700D460A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		639E642F2AFAF4E700D460A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		639E64302AFAF4E700D460A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639E64322AFAF4E700D460A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RamosSnapchat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miempresa.com.RamosSnapchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		639E64332AFAF4E700D460A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RamosSnapchat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miempresa.com.RamosSnapchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		639E64352AFAF4E700D460A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miempresa.com.RamosSnapchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamosSnapchat.app/RamosSnapchat";
+			};
+			name = Debug;
+		};
+		639E64362AFAF4E700D460A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miempresa.com.RamosSnapchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamosSnapchat.app/RamosSnapchat";
+			};
+			name = Release;
+		};
+		639E64382AFAF4E700D460A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miempresa.com.RamosSnapchatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RamosSnapchat;
+			};
+			name = Debug;
+		};
+		639E64392AFAF4E700D460A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miempresa.com.RamosSnapchatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RamosSnapchat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639E64022AFAF4E600D460A8 /* Build configuration list for PBXProject "RamosSnapchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639E642F2AFAF4E700D460A8 /* Debug */,
+				639E64302AFAF4E700D460A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639E64312AFAF4E700D460A8 /* Build configuration list for PBXNativeTarget "RamosSnapchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639E64322AFAF4E700D460A8 /* Debug */,
+				639E64332AFAF4E700D460A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639E64342AFAF4E700D460A8 /* Build configuration list for PBXNativeTarget "RamosSnapchatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639E64352AFAF4E700D460A8 /* Debug */,
+				639E64362AFAF4E700D460A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639E64372AFAF4E700D460A8 /* Build configuration list for PBXNativeTarget "RamosSnapchatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639E64382AFAF4E700D460A8 /* Debug */,
+				639E64392AFAF4E700D460A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 639E63FF2AFAF4E600D460A8 /* Project object */;
+}
